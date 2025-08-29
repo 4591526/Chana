@@ -49,7 +49,7 @@ if opciones == "In the search for correlations":
     st.image("grafico.png")
 
 if opciones == "Datasets":
-    st.markdown(f'<h2 style="font-size: 42px; text-align: center; ">Selecting Datasets: Language & Culture</h2>', unsafe_allow_html=True)
+    st.markdown(f'<h2 style="font-size: 42px; text-align: center; ">Selecting Datasets</h2>', unsafe_allow_html=True)
     st.markdown("""
     Selection criteria: relevance, representativeness, reliability
 
@@ -62,7 +62,6 @@ if opciones == "Datasets":
     - SAILS
 
     * Sources: archives, collaborative projects, open digital corpora
-    * Goal: connect language and culture.
     """)
 
 if opciones == "Expected Outcomes":
@@ -76,6 +75,7 @@ if opciones == "Expected Outcomes":
 
 
     """)
+
 
 
 
