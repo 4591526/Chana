@@ -8,10 +8,10 @@ opciones = st.sidebar.selectbox("Select:",["Intro", "Santos-Granero (2002)", "In
 if opciones == "Intro":
     st.markdown(f'<h2 style="font-size: 42px; text-align: center; ">How are cultural and linguistic traits related geographically and temporally in the Americans?</h2>', unsafe_allow_html=True)
     st.markdown("""
-     Nico Brid
-     Diogo Koga
-     Luisa Gomez
-     Romina Durán
+    - Nico Brid
+    - Diogo Koga
+    - Luisa Gomez
+    - Romina Durán
     """)
 
 if opciones == "Santos-Granero (2002)":
@@ -76,4 +76,5 @@ if opciones == "Expected Outcomes":
 
 
     """)
+
 
