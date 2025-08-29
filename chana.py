@@ -6,8 +6,13 @@ st.sidebar.title("Chana Project")
 opciones = st.sidebar.selectbox("Select:",["Intro", "Santos-Granero (2002)", "In the search for correlations", "Datasets", "Expected Outcomes"] )
 
 if opciones == "Intro":
-    st.markdown(f'<h2 style="font-size: 42px; text-align: center; ">How are cultural and linguistic traitsrelated geographically and temporally in the Americans?</h2>', unsafe_allow_html=True)
-    st.write("nombre")
+    st.markdown(f'<h2 style="font-size: 42px; text-align: center; ">How are cultural and linguistic traits related geographically and temporally in the Americans?</h2>', unsafe_allow_html=True)
+     st.markdown("""
+     Nico Brid
+     Diogo Koga
+     Luisa Gomez
+     Romina Durán
+    """)
 
 if opciones == "Santos-Granero (2002)":
     st.markdown(f'<h2 style="font-size: 42px; text-align: center; ">The Arawakan Matrix: Ethos, Language, and History in Native South America</h2>', unsafe_allow_html=True)
@@ -68,5 +73,6 @@ if opciones == "Expected Outcomes":
     - Increasing the quantity of data available on existing datasets;
     - Identifying points of convergence and divergence in cross-linguistic and cross-cultural data analysis, as well as seeking explanations for divergences (including insights from other fields such as genetics);
     - Advancing hypotheses on linguistic and cultural evolution in South America, as well as on their geographical diffusion over time.
+
 
     """)
